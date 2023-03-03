@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <script defer src="kantorscript.js"></script>
+    <link rel="stylesheet" href="kantor.css">
+</head>
+
+<body>
+    <div class="container">
+        <form class="js-form form">
+            <h1 class="form-header">Currency Converter</h1>
+            <p>
+                <label>
+                    <span class="form__labelText">
+                        Amount in Ukrainian Hryvnia: </span>
+
+                    <input placeholder="Write amount in UAN" class="form_field js-amount" type="number" required step="0.1">
+                </label>
+            </p>
+            <p>
+                <label>
+                    <span class="form__labelText">
+                        Choose currency:
+                    </span>
+                    <select class="form__field js-currency" type="number" required step="0.1" >
+
+                        <option value="USD">US Dollar</option>
+                        <option value="EUR" selected>Euro</option>
+                        <option value="UAN">Ukrainian Hryvnia</option>
+                        <option value="GBP">British Pound</option>
+                        <option value="PLN">Polish Zloty</option>
+                    </select>
+                    
+                </label>
+            </p>
+            <p><button class="form__button">Convert!</button></p>
+            <p> 
+            <label>
+                <span class="js-result"> Result: </span>
+            </label>
+            </p>
+        </form>
+    </div>
+
+</body>
+
+</html>
