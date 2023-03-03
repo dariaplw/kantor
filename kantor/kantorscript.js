@@ -30,5 +30,5 @@ FormElement.addEventListener("submit", (event) => {
             result = amount / ratePLN;
             break;
     }
-    resultElement.innerHTML = `${amount.toFixed(2)} UAN = <strong>${result.toFixed(2)} ${currency}</strong>}`;
+    resultElement.innerHTML = `${amount.toFixed(2)} UAN = <strong>${result.toFixed(2)} ${currency}</strong>`;
 });
